@@ -1,0 +1,194 @@
+.header {
+  background-color: #ffffff;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+  height: 72px;
+}
+.header nav {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.h-span {
+  color: #2e2f42;
+}
+.f-span {
+  color: #f4f4fd;
+}
+.nav-left {
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 76px;
+}
+.navleft-li {
+  text-decoration: none;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+.nav-right {
+  font-style: normal;
+}
+.nav-right ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.navright-li {
+  text-decoration: none;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.navright-li:hover,
+.navleft-li:hover {
+  color: #404bbf;
+}
+.navright-li:active,
+.navleft-li:active {
+  color: #404bbf;
+}
+.navright-li:focus,
+.navleft-li:focus {
+  color: #404bbf;
+}
+.nav-studio:hover,
+.nav-studio:active,
+.nav-studio:focus {
+  color: #404bbf;
+}
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 1440px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.h-one {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0;
+  width: 496px;
+  height: 120px;
+  margin-left: 472px;
+  margin-bottom: 48px;
+}
+.solutions {
+  color: #ffffff;
+  background-color: #2e2f42;
+  height: 600px;
+  padding-top: 188px;
+}
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  width: 169px;
+  height: 56px;
+  padding: 32px 16px;
+  border-radius: 0.4em;
+  margin-left: 636px;
+}
+.button:focus,
+.button:hover {
+  background-color: #404bbf;
+}
+.mission,
+.team,
+.portfolio {
+  padding: 120px 156px;
+}
+.mission .h-two {
+  display: none;
+}
+.mission ul {
+  width: 1128px;
+  height: 104px;
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 120px; */
+  /* margin-left: 156px; */
+}
+.h-two {
+  color: #2e2f42;
+  text-transform: capitalize;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+.h-three {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+.team {
+  background-color: #f4f4fd;
+  height: 732px;
+}
+.team ul {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 72px;
+}
+.team li {
+  background-color: #ffffff;
+  width: 264px;
+  height: 380px;
+}
+.portfolio ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  height: 312px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-p {
+  width: 264px;
+  height: 72px;
+  margin-top: 16px;
+}
