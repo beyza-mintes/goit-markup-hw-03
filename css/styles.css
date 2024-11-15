@@ -8,9 +8,15 @@
   border-bottom: 1px solid #e7e9fc;
   height: 72px;
 }
-.header nav {
+.container {
   display: flex;
-  flex-direction: row;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.nav {
+  display: flex;
+  align-items: center;
 }
 .logo {
   color: #4d5ae5;
@@ -21,6 +27,7 @@
   line-height: 1.17;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 .h-span {
   color: #2e2f42;
@@ -39,11 +46,12 @@
   text-decoration: none;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .nav-right {
   font-style: normal;
 }
-.nav-right ul {
+.nav-right-ul {
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -71,6 +79,9 @@
 .nav-studio:focus {
   color: #404bbf;
 }
+img {
+  display: block;
+}
 body {
   color: #434455;
   background-color: #ffffff;
@@ -97,7 +108,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   margin: 0;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
   margin-left: 472px;
   margin-bottom: 48px;
@@ -106,7 +117,7 @@ ul {
   color: #ffffff;
   background-color: #2e2f42;
   height: 600px;
-  padding-top: 188px;
+  padding: 188px 0;
 }
 .button {
   color: #ffffff;
@@ -115,11 +126,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  width: 169px;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
   height: 56px;
-  padding: 32px 16px;
-  border-radius: 0.4em;
-  margin-left: 636px;
+  border: none;
+  border-radius: 4px;
 }
 .button:focus,
 .button:hover {
@@ -130,16 +142,21 @@ ul {
 .portfolio {
   padding: 120px 156px;
 }
+.mission {
+  padding: 120px 0;
+}
 .mission .h-two {
   display: none;
 }
-.mission ul {
+.mission-ul {
   width: 1128px;
   height: 104px;
   display: flex;
+  gap: 24px;
   flex-direction: row;
-  /* margin-top: 120px; */
-  /* margin-left: 156px; */
+}
+.mission-li {
+  width: calc((100% - 72px) / 4);
 }
 .h-two {
   color: #2e2f42;
@@ -157,11 +174,12 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 0;
+  margin-bottom: 8px;
 }
 .team {
   background-color: #f4f4fd;
   height: 732px;
+  padding: 120px 0;
 }
 .team ul {
   display: flex;
